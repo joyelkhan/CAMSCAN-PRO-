@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-4.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
@@ -18,7 +18,7 @@ CAMSCAN PRO is a comprehensive security reconnaissance tool designed for researc
 
 ⚠️ **Disclaimer**: This tool is intended for educational and security research purposes only. Unauthorized scanning of systems you do not own is illegal. Use responsibly.
 
-## 🆕 What's New in v4.0.0
+## 🆕 What's New in v1.0
 
 - ✅ **Massive Port Scanning**: 1000+ ports including custom and high camera ports
 - ✅ **Enhanced Brand Detection**: Hikvision, Dahua, Axis, CP Plus, and more
@@ -53,8 +53,8 @@ CAMSCAN PRO is a comprehensive security reconnaissance tool designed for researc
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/camscan-pro.git
-cd camscan-pro
+git clone https://github.com/joyelkhan/CAMSCAN-PRO-.git
+cd CAMSCAN-PRO-
 ```
 
 ### 2️⃣ Install Dependencies

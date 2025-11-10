@@ -756,7 +756,7 @@ class CamScanPro:
             "scan_metadata": {
                 "timestamp": datetime.now().isoformat(),
                 "total_cameras": len(results),
-                "scanner_version": "4.0.0"
+                "scanner_version": "1.0"
             },
             "cameras": []
         }
