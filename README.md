@@ -1,12 +1,12 @@
-# CAMSCAN ELITE - Premium CCTV Reconnaissance Suite
+# CAMXPLOIT ELITE - Advanced CCTV Security Assessment Suite
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-5.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-orange.svg)
 
-**Enterprise-Grade Security Scanner with Advanced Exploitation Detection & Risk Assessment**
+**Enterprise-Grade Camera Reconnaissance & Vulnerability Scanner**
 
 </div>
 
@@ -14,104 +14,124 @@
 
 ## 🚀 Overview
 
-CAMSCAN PRO is a comprehensive security reconnaissance tool designed for researchers and security enthusiasts to identify exposed CCTV cameras and surveillance systems. This tool provides advanced scanning capabilities with a focus on security research and vulnerability assessment.
+CAMXPLOIT ELITE is a comprehensive security reconnaissance tool designed for researchers and security enthusiasts to identify exposed CCTV cameras and surveillance systems. This tool provides advanced scanning capabilities with a focus on security research and vulnerability assessment.
 
 ⚠️ **Disclaimer**: This tool is intended for educational and security research purposes only. Unauthorized scanning of systems you do not own is illegal. Use responsibly.
 
-## 🆕 What's New in v5.0.0
+## 🆕 What's New in v3.0.0
 
-- ✅ **Enterprise-Grade Scanning**: 200+ threads, 1000+ ports, optimized performance
-- ✅ **Advanced Brand Detection**: Hikvision, Dahua, Axis, CP Plus with deep fingerprinting
-- ✅ **Risk Assessment System**: Automated security scoring (0-100 scale)
-- ✅ **Exploit Testing Framework**: CVE validation and vulnerability confirmation
-- ✅ **Enhanced Credential Testing**: 50+ default credentials per brand
-- ✅ **Live Stream Discovery**: RTSP, HTTP, MJPEG with content-type validation
-- ✅ **Endpoint Discovery**: Comprehensive API and interface enumeration
-- ✅ **Firmware Detection**: Version identification for vulnerability mapping
-- ✅ **Deep Scan Mode**: Exhaustive endpoint and configuration discovery
+- ✅ **Multi-Threaded Scanning**: 150+ threads for rapid port scanning
+- ✅ **Enhanced Brand Detection**: Hikvision, Dahua, Axis, CP Plus, Sony, Bosch
+- ✅ **CVE Database Integration**: Automated vulnerability checking
+- ✅ **Live Stream Detection**: RTSP, HTTP, MJPEG stream discovery
+- ✅ **IP Intelligence**: Geolocation with Google Maps/Earth integration
+- ✅ **Credential Testing**: Smart rate-limited authentication testing
+- ✅ **Endpoint Discovery**: Comprehensive API and path enumeration
+- ✅ **Modern UI**: Colorful emoji-enhanced console output
+- ✅ **Multiple Reports**: JSON export with detailed findings
 - ✅ **Colorful Logging**: Professional console output with progress tracking
 - ✅ **Statistics Dashboard**: Real-time scan metrics and performance data
 
-## ✨ Features
+## 🎯 Key Features
 
-### Core Capabilities
-- 🔍 **Enterprise Port Scanning**: 1000+ ports with 200-thread concurrency
-- 📹 **Advanced Camera Detection**: Deep fingerprinting for Hikvision, Dahua, Axis, CP Plus
-- 🎯 **Risk Assessment**: Automated security scoring with visual indicators
-- 🔑 **Credential Testing**: 50+ default passwords per brand with smart detection
-- 🌐 **Network Scanning**: CIDR support with multi-port host discovery
-- 📡 **Stream Discovery**: RTSP, HTTP, MJPEG with content validation
-- 🗺️ **Geolocation**: IP location with Google Maps/Earth integration
-- 🛡️ **Vulnerability Assessment**: CVE validation and exploit testing
-- 🔧 **Endpoint Discovery**: Comprehensive API and interface enumeration
-- 📊 **Rich Reporting**: Markdown, JSON, CSV with statistics dashboard
+### 🔍 Advanced Detection
+- **Multi-Brand Support**: Hikvision, Dahua, Axis, CP Plus, Sony, Bosch, and generic cameras
+- **Smart Fingerprinting**: HTML/header/content analysis for accurate identification
+- **Firmware Detection**: Extract version information for CVE mapping
+- **Model Identification**: Precise camera model detection
 
-### Supported Brands & Devices
-- **Hikvision**: Full CVE database, backdoor detection, 15+ credentials
-- **Dahua**: Authentication bypass testing, 18+ credentials
-- **Axis**: Buffer overflow detection, 9+ credentials
-- **CP Plus**: Information disclosure testing, 14+ credentials
-- **Generic**: Universal detection with 16+ common credentials
-- ONVIF-compliant cameras
-- Any device exposing RTSP, HTTP, MJPEG, or MMS streams
+### 🔐 Security Assessment
+- **Default Credentials**: Comprehensive password database per brand
+- **Authentication Analysis**: Basic Auth and Form-based login testing
+- **CVE Database**: Automated vulnerability checking with NVD links
+- **Smart Rate Limiting**: Responsible credential testing (0.05s delay)
 
-## 🛠️ Installation
+### 📹 Stream Detection
+- **RTSP Streams**: Automatic RTSP endpoint discovery on ports 554, 8554, 10554
+- **HTTP Streams**: MJPEG, MPEG, H.264 stream detection
+- **Multiple Protocols**: Support for RTSP, HTTP, RTMP
+- **Content-Type Validation**: Smart stream verification
 
-### 1️⃣ Clone the Repository
+### 🌍 Intelligence Gathering
+- **IP Geolocation**: City, region, country, timezone identification
+- **ISP Information**: Organization and provider details
+- **Google Maps/Earth**: Direct coordinate links for physical location
+- **OSINT Links**: Shodan, Censys, Zoomeye integration
+- **Google Dorking**: Automated dork suggestions
+
+### ⚡ Performance
+- **150 Concurrent Threads**: Fast multi-threaded scanning
+- **100+ Ports**: Comprehensive CCTV port coverage
+- **Smart Rate Limiting**: Configurable delays (default: 0.05s)
+- **Optimized Timeouts**: Balanced speed vs accuracy (6s default)
+
+### 📊 Reporting
+- **JSON Export**: Structured data with scan metadata
+- **Statistics Dashboard**: Real-time scan metrics
+- **Detailed Findings**: Comprehensive security assessment
+- **Interactive Prompts**: User-friendly scanning workflow
+
+## 📦 Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+### Quick Install
+
 ```bash
-git clone https://github.com/joyelkhan/CAMSCAN-PRO-.git
-cd CAMSCAN-PRO-
-```
+# Clone the repository
+git clone https://github.com/joyelkhan/CAMXPLOIT-ELITE.git
+cd CAMXPLOIT-ELITE
 
-### 2️⃣ Install Dependencies
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the scanner
+python camxploit-elite.py
 ```
 
-### 📝 Requirements
-- Python 3.8+
-- aiohttp>=3.8.0
-- requests>=2.28.0
-- urllib3>=1.26.0
-- pycryptodome>=3.15.0
+### Dependencies
+- `requests` - HTTP library
+- `aiohttp` - Async HTTP client
+- `urllib3` - HTTP client utility
 
-## 🎯 Usage
+## 🚀 Usage
 
-### Basic Scan
+### Interactive Mode
 ```bash
-python camscan-pro.py 192.168.1.1
+# Run the scanner
+python camxploit-elite.py
+
+# Enter target IP when prompted
+[+] Enter IP address: 192.168.1.100
 ```
 
-### Network Range Scan
-```bash
-python camscan-pro.py 192.168.1.0/24
-```
+### Scanning Workflow
 
-### Advanced Scan with Deep Discovery
-```bash
-python camscan-pro.py 192.168.1.1 -t 200 --timeout 5 --deep-scan
-```
+1. **IP Validation**: Validates target IP and checks if private
+2. **OSINT Links**: Provides Shodan, Censys, Zoomeye search links
+3. **Google Dorking**: Suggests relevant Google dorks
+4. **IP Intelligence**: Gathers geolocation and ISP information
+5. **Port Scanning**: Scans 100+ CCTV-specific ports
+6. **Camera Detection**: Analyzes responses for camera indicators
+7. **Authentication Check**: Identifies login pages
+8. **Fingerprinting**: Detects brand, model, firmware
+9. **Credential Testing**: Tests default credentials with rate limiting
+10. **Stream Detection**: Discovers live video streams
+11. **Report Generation**: Creates JSON report with findings
+12. **Statistics**: Displays comprehensive scan statistics
 
-### Enterprise Scan with Exploit Testing
-```bash
-python camscan-pro.py 192.168.1.1 --enable-exploits --rate-limit 0.01 -f json
-```
+### Configuration
 
-### Scan Multiple Targets from File
-```bash
-python camscan-pro.py targets.txt --format csv --deep-scan
-```
+You can modify scanner settings in the code:
 
-### Command Line Arguments
-```
--t, --threads          Number of threads (default: 100)
---timeout              Timeout in seconds (default: 8)
--o, --output           Output filename
--f, --format           Output format: markdown, json, csv (default: markdown)
---rate-limit           Rate limit between requests (default: 0.05)
---enable-exploits      Enable exploit testing (Educational only)
---deep-scan            Perform comprehensive endpoint discovery
--v, --verbose          Verbose output with debug information
+```python
+scanner = CamXploitElite(
+    max_threads=150,  # Number of concurrent threads
+    timeout=6,        # Connection timeout in seconds
+    rate_limit=0.05   # Delay between requests in seconds
+)
 ```
 
 ## 📊 Output Formats
@@ -133,11 +153,17 @@ Structured data format for:
 - Integration with other tools
 - Data analysis and processing
 
-### CSV Report
-Spreadsheet-friendly format for:
-- Data processing in Excel/Google Sheets
-- Database imports
-- Statistical analysis
+## 📁 Project Structure
+
+```
+CAMXPLOIT-ELITE/
+├── camxploit-elite.py          # Main scanner application
+├── requirements.txt         # Python dependencies
+├── README.md               # Documentation
+├── LICENSE                 # MIT License
+├── .gitignore             # Git ignore rules
+└── camxploit_report_*.json # Generated scan reports
+```
 
 ## 🔒 Security Features
 
@@ -149,30 +175,6 @@ Spreadsheet-friendly format for:
 - 📝 **Colorful Logging**: Professional console output with progress bars
 - 🎯 **Risk Scoring**: Automated 0-100 security risk assessment
 - 🔧 **Exploit Framework**: Educational CVE validation (opt-in)
-
-## 📁 Project Structure
-
-```
-CAMSCAN-PRO-/
-├── camscan-pro.py      # Main elite scanner (1400+ lines)
-├── requirements.txt    # Python dependencies
-├── LICENSE            # MIT License
-├── README.md          # Comprehensive documentation
-└── reports/           # Auto-generated scan reports
-```
-
-## 🔍 What It Does
-
-1. **Enterprise Port Scanning**: Multi-threaded scanning of 1000+ CCTV ports
-2. **Service Detection**: Advanced HTTP/RTSP service identification
-3. **Deep Brand Fingerprinting**: Manufacturer, model, and firmware detection
-4. **Credential Testing**: Tests 50+ default passwords per brand
-5. **Stream Discovery**: RTSP, HTTP, MJPEG with content validation
-6. **Vulnerability Assessment**: CVE validation and exploit testing
-7. **Endpoint Discovery**: Comprehensive API and interface enumeration
-8. **Risk Assessment**: Automated 0-100 security scoring
-9. **Geolocation**: IP location with Google Maps/Earth links
-10. **Report Generation**: Markdown, JSON, CSV with statistics dashboard
 
 ## ⚠️ Legal Disclaimer
 
@@ -200,17 +202,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Please follow these guidelines:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🛡️ Security
-
-If you discover a security vulnerability, please disclose it responsibly by contacting the maintainers directly rather than opening a public issue.
+### Development Guidelines
+- Follow PEP 8 style guide
+- Add docstrings to all functions
+- Test with multiple camera brands
+- Update documentation as needed
+- Respect rate limiting in tests
 
 ## 📞 Support
 
